@@ -1,11 +1,9 @@
 import javax.swing.SwingUtilities;
-
 import backend.myJDBC;
 import gui.LoginFormGui;
 import gui.RegisterFormGui;
 
 public class AppLauncher {
-
     public static void main(String[] args) {
         //we use invokeLater() to make updates to GUI to make more thred safe and efficient
         SwingUtilities.invokeLater(new Runnable() {
